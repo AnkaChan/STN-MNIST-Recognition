@@ -56,6 +56,8 @@ def augmentImgs(imgs, labels, augCfg):
 if __name__ == "__main__":
     mnist = input_data.read_data_sets("./MNIST_data/", one_hot=True)
 
+    outDataName = 'AugRotOnly'
+
     readWeights = False
 
     imgsTrain = mnist.train._images
@@ -68,26 +70,36 @@ if __name__ == "__main__":
 
     # cv2.imshow('imgtrain', imgsTrain[0,:,:])
     # cv2.waitKey(-1)
+    #
+    # augCfg = {
+    #     # 'mul': (0.8, 1.2),
+    #     'r': (-180, 180),
+    #     'shear': (30, 30),
+    #     'scales':(0.7, 1.2),
+    #     'numAugs': 10,
+    #
+    # }
 
     augCfg = {
         # 'mul': (0.8, 1.2),
         'r': (-180, 180),
-        'shear': (30, 30),
-        'scales':(0.7, 1.2),
+        'shear': 0,
+        'scales': 1,
         'numAugs': 10,
 
     }
 
+
     imgsTrainAug, labelsTrainAug = augmentImgs(imgsTrain, labelsTrain, augCfg)
     imgsTestAug, labelsTestAug = augmentImgs(imgsTest, labelsTest, augCfg)
 
-    np.save('imgsTrainAug.npy', imgsTrain)
-    np.save('labelsTrainAug.npy', labelsTrainAug)
+    np.save('imgsTrain' + outDataName + '.npy', imgsTrainAug)
+    np.save('labelsTrain' + outDataName +' .npy', labelsTrainAug)
 
-    np.save('imgsTestAug.npy', imgsTestAug)
-    np.save('labelsTestAug.npy', labelsTestAug)
+    np.save('imgsTest' + outDataName + '.npy', imgsTestAug)
+    np.save('labelsTest' + outDataName + '.npy', labelsTestAug)
 
     # imgsTestAug, labelsTestAug = augmentImgs(imgsTest[:200,:,:], labelsTest[:200, :], augCfg)
 
-    visualizeAugData(imgsTrain, labelsTrain, 'AugmentedTrain.pdf')
-    visualizeAugData(imgsTestAug, labelsTestAug, 'AugmentedTest.pdf')
+    visualizeAugData(imgsTrainAug, labelsTrainAug, 'Augmented' + outDataName + 'Train.pdf')
+    visualizeAugData(imgsTestAug, labelsTestAug, 'Augmented'  + outDataName + '.pdf')

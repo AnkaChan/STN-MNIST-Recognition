@@ -1,0 +1,9 @@
+2019-12-11 15:21:33,673 logger INFO Epoch:   0 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.3026 time 33.82
+2019-12-11 15:23:14,892 logger INFO Epoch:   5 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.1765 time 135.04
+2019-12-11 15:25:00,996 logger INFO Epoch:  10 Train accuracy: 0.177596 Test accuracy: 0.178200 Loss on Train batch: 1.9884 time 241.14
+2019-12-11 15:26:50,245 logger INFO Epoch:  15 Train accuracy: 0.879131 Test accuracy: 0.884120 Loss on Train batch: 0.4175 time 350.39
+2019-12-11 15:28:41,606 logger INFO Epoch:  20 Train accuracy: 0.954058 Test accuracy: 0.955760 Loss on Train batch: 0.1585 time 461.75
+2019-12-11 15:30:27,784 logger INFO Epoch:  25 Train accuracy: 0.966804 Test accuracy: 0.968000 Loss on Train batch: 0.1127 time 567.93
+2019-12-11 15:32:16,659 logger INFO Epoch:  30 Train accuracy: 0.972833 Test accuracy: 0.972600 Loss on Train batch: 0.0896 time 676.81
+2019-12-11 15:34:08,654 logger INFO Epoch:  35 Train accuracy: 0.976713 Test accuracy: 0.975840 Loss on Train batch: 0.0735 time 788.80
+2019-12-11 15:36:07,252 logger INFO Epoch:  40 Train accuracy: 0.979520 Test accuracy: 0.977840 Loss on Train batch: 0.0618 time 907.40
