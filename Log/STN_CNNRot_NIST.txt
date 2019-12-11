@@ -1,0 +1,15 @@
+2019-12-11 15:52:54,099 logger INFO Epoch:   0 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.3026 time 31.94
+2019-12-11 15:53:25,785 logger INFO Epoch:   1 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.2484 time 63.62
+2019-12-11 15:53:58,368 logger INFO Epoch:   2 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.1836 time 96.21
+2019-12-11 15:54:32,334 logger INFO Epoch:   3 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.1671 time 130.17
+2019-12-11 15:55:08,115 logger INFO Epoch:   4 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.1529 time 165.96
+2019-12-11 15:55:45,454 logger INFO Epoch:   5 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.1409 time 203.29
+2019-12-11 15:56:24,163 logger INFO Epoch:   6 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.1315 time 242.00
+2019-12-11 15:57:05,351 logger INFO Epoch:   7 Train accuracy: 0.098982 Test accuracy: 0.095800 Loss on Train batch: 2.1195 time 283.19
+2019-12-11 15:57:49,016 logger INFO Epoch:   8 Train accuracy: 0.104873 Test accuracy: 0.101120 Loss on Train batch: 2.1078 time 326.86
+2019-12-11 15:58:35,708 logger INFO Epoch:   9 Train accuracy: 0.176985 Test accuracy: 0.174840 Loss on Train batch: 1.9771 time 373.55
+2019-12-11 15:59:25,211 logger INFO Epoch:  10 Train accuracy: 0.237564 Test accuracy: 0.236360 Loss on Train batch: 1.8561 time 423.05
+2019-12-11 16:01:22,025 logger INFO Epoch:  15 Train accuracy: 0.937669 Test accuracy: 0.940640 Loss on Train batch: 0.2104 time 539.87
+2019-12-11 16:03:22,723 logger INFO Epoch:  20 Train accuracy: 0.961869 Test accuracy: 0.962640 Loss on Train batch: 0.1283 time 660.56
+2019-12-11 16:05:29,880 logger INFO Epoch:  25 Train accuracy: 0.969865 Test accuracy: 0.970040 Loss on Train batch: 0.0955 time 787.72
+2019-12-11 16:07:42,671 logger INFO Epoch:  30 Train accuracy: 0.975756 Test accuracy: 0.973680 Loss on Train batch: 0.0736 time 920.51
