@@ -4,4 +4,4 @@
 **/.vs
 *.npy
 ~*
-save/*
+save/
